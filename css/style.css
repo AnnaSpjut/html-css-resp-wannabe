@@ -140,19 +140,43 @@ img {
         align-items: center;
     }
 
-    .row, .col, .card{
-        width: 300px;
-        justify-content: center;
+    h3{
+        padding-top: 20px;
+    }
+
+    .why-us h2{
+        display: flex;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
     .card p{
-        padding-bottom: 20px;
+        padding: 30px;
+        padding-top: 10px;
     }
 
     .card{
-        padding-top: 20px;
+        padding-top: 10px;
+    } 
+
+    .lessons .col{
+        width: 100%;
         justify-content: center;
     }
+
+    .steps .col{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .why-us{
+        background-color: black;
+    }
+
+    .why-us .col{
+        width: 90%;
+    }
+
 }
   
 
